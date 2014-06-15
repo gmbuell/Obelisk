@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DA0893B194D70C200E15B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893A194D70C200E15B2E /* Foundation.framework */; };
+		1DA0893D194D70C200E15B2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893C194D70C200E15B2E /* CoreGraphics.framework */; };
+		1DA0893F194D70C200E15B2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893E194D70C200E15B2E /* UIKit.framework */; };
+		1DA08945194D70C300E15B2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DA08943194D70C300E15B2E /* InfoPlist.strings */; };
+		1DA08947194D70C300E15B2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08946194D70C300E15B2E /* main.m */; };
+		1DA0894B194D70C300E15B2E /* GMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA0894A194D70C300E15B2E /* GMBAppDelegate.m */; };
+		1DA0894E194D70C300E15B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA0894C194D70C300E15B2E /* Main.storyboard */; };
+		1DA08951194D70C300E15B2E /* GMBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08950194D70C300E15B2E /* GMBFirstViewController.m */; };
+		1DA08954194D70C300E15B2E /* GMBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08953194D70C300E15B2E /* GMBSecondViewController.m */; };
+		1DA08956194D70C300E15B2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA08955194D70C300E15B2E /* Images.xcassets */; };
+		1DA0895D194D70C300E15B2E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0895C194D70C300E15B2E /* XCTest.framework */; };
+		1DA0895E194D70C300E15B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893A194D70C200E15B2E /* Foundation.framework */; };
+		1DA0895F194D70C300E15B2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893E194D70C200E15B2E /* UIKit.framework */; };
+		1DA08967194D70C300E15B2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DA08965194D70C300E15B2E /* InfoPlist.strings */; };
+		1DA08969194D70C300E15B2E /* ObeliskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08968194D70C300E15B2E /* ObeliskTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DA08960194D70C300E15B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DA0892F194D70C200E15B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA08936194D70C200E15B2E;
+			remoteInfo = Obelisk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA08937194D70C200E15B2E /* Obelisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obelisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA0893A194D70C200E15B2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DA0893C194D70C200E15B2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DA0893E194D70C200E15B2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DA08942194D70C200E15B2E /* Obelisk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Obelisk-Info.plist"; sourceTree = "<group>"; };
+		1DA08944194D70C300E15B2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DA08946194D70C300E15B2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DA08948194D70C300E15B2E /* Obelisk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Obelisk-Prefix.pch"; sourceTree = "<group>"; };
+		1DA08949194D70C300E15B2E /* GMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBAppDelegate.h; sourceTree = "<group>"; };
+		1DA0894A194D70C300E15B2E /* GMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBAppDelegate.m; sourceTree = "<group>"; };
+		1DA0894D194D70C300E15B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DA0894F194D70C300E15B2E /* GMBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBFirstViewController.h; sourceTree = "<group>"; };
+		1DA08950194D70C300E15B2E /* GMBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBFirstViewController.m; sourceTree = "<group>"; };
+		1DA08952194D70C300E15B2E /* GMBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBSecondViewController.h; sourceTree = "<group>"; };
+		1DA08953194D70C300E15B2E /* GMBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBSecondViewController.m; sourceTree = "<group>"; };
+		1DA08955194D70C300E15B2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DA0895B194D70C300E15B2E /* ObeliskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObeliskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA0895C194D70C300E15B2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1DA08964194D70C300E15B2E /* ObeliskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObeliskTests-Info.plist"; sourceTree = "<group>"; };
+		1DA08966194D70C300E15B2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DA08968194D70C300E15B2E /* ObeliskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObeliskTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA08934194D70C200E15B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA0893D194D70C200E15B2E /* CoreGraphics.framework in Frameworks */,
+				1DA0893F194D70C200E15B2E /* UIKit.framework in Frameworks */,
+				1DA0893B194D70C200E15B2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA08958194D70C300E15B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA0895D194D70C300E15B2E /* XCTest.framework in Frameworks */,
+				1DA0895F194D70C300E15B2E /* UIKit.framework in Frameworks */,
+				1DA0895E194D70C300E15B2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA0892E194D70C200E15B2E = {
+			isa = PBXGroup;
+			children = (
+				1DA08940194D70C200E15B2E /* Obelisk */,
+				1DA08962194D70C300E15B2E /* ObeliskTests */,
+				1DA08939194D70C200E15B2E /* Frameworks */,
+				1DA08938194D70C200E15B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DA08938194D70C200E15B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA08937194D70C200E15B2E /* Obelisk.app */,
+				1DA0895B194D70C300E15B2E /* ObeliskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DA08939194D70C200E15B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DA0893A194D70C200E15B2E /* Foundation.framework */,
+				1DA0893C194D70C200E15B2E /* CoreGraphics.framework */,
+				1DA0893E194D70C200E15B2E /* UIKit.framework */,
+				1DA0895C194D70C300E15B2E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DA08940194D70C200E15B2E /* Obelisk */ = {
+			isa = PBXGroup;
+			children = (
+				1DA08949194D70C300E15B2E /* GMBAppDelegate.h */,
+				1DA0894A194D70C300E15B2E /* GMBAppDelegate.m */,
+				1DA0894C194D70C300E15B2E /* Main.storyboard */,
+				1DA0894F194D70C300E15B2E /* GMBFirstViewController.h */,
+				1DA08950194D70C300E15B2E /* GMBFirstViewController.m */,
+				1DA08952194D70C300E15B2E /* GMBSecondViewController.h */,
+				1DA08953194D70C300E15B2E /* GMBSecondViewController.m */,
+				1DA08955194D70C300E15B2E /* Images.xcassets */,
+				1DA08941194D70C200E15B2E /* Supporting Files */,
+			);
+			path = Obelisk;
+			sourceTree = "<group>";
+		};
+		1DA08941194D70C200E15B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DA08942194D70C200E15B2E /* Obelisk-Info.plist */,
+				1DA08943194D70C300E15B2E /* InfoPlist.strings */,
+				1DA08946194D70C300E15B2E /* main.m */,
+				1DA08948194D70C300E15B2E /* Obelisk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DA08962194D70C300E15B2E /* ObeliskTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA08968194D70C300E15B2E /* ObeliskTests.m */,
+				1DA08963194D70C300E15B2E /* Supporting Files */,
+			);
+			path = ObeliskTests;
+			sourceTree = "<group>";
+		};
+		1DA08963194D70C300E15B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DA08964194D70C300E15B2E /* ObeliskTests-Info.plist */,
+				1DA08965194D70C300E15B2E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DA08936194D70C200E15B2E /* Obelisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA0896C194D70C300E15B2E /* Build configuration list for PBXNativeTarget "Obelisk" */;
+			buildPhases = (
+				1DA08933194D70C200E15B2E /* Sources */,
+				1DA08934194D70C200E15B2E /* Frameworks */,
+				1DA08935194D70C200E15B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Obelisk;
+			productName = Obelisk;
+			productReference = 1DA08937194D70C200E15B2E /* Obelisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DA0895A194D70C300E15B2E /* ObeliskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA0896F194D70C300E15B2E /* Build configuration list for PBXNativeTarget "ObeliskTests" */;
+			buildPhases = (
+				1DA08957194D70C300E15B2E /* Sources */,
+				1DA08958194D70C300E15B2E /* Frameworks */,
+				1DA08959194D70C300E15B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA08961194D70C300E15B2E /* PBXTargetDependency */,
+			);
+			name = ObeliskTests;
+			productName = ObeliskTests;
+			productReference = 1DA0895B194D70C300E15B2E /* ObeliskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DA0892F194D70C200E15B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GMB;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					1DA0895A194D70C300E15B2E = {
+						TestTargetID = 1DA08936194D70C200E15B2E;
+					};
+				};
+			};
+			buildConfigurationList = 1DA08932194D70C200E15B2E /* Build configuration list for PBXProject "Obelisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DA0892E194D70C200E15B2E;
+			productRefGroup = 1DA08938194D70C200E15B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DA08936194D70C200E15B2E /* Obelisk */,
+				1DA0895A194D70C300E15B2E /* ObeliskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DA08935194D70C200E15B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA08956194D70C300E15B2E /* Images.xcassets in Resources */,
+				1DA08945194D70C300E15B2E /* InfoPlist.strings in Resources */,
+				1DA0894E194D70C300E15B2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA08959194D70C300E15B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA08967194D70C300E15B2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA08933194D70C200E15B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA08951194D70C300E15B2E /* GMBFirstViewController.m in Sources */,
+				1DA08954194D70C300E15B2E /* GMBSecondViewController.m in Sources */,
+				1DA08947194D70C300E15B2E /* main.m in Sources */,
+				1DA0894B194D70C300E15B2E /* GMBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA08957194D70C300E15B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA08969194D70C300E15B2E /* ObeliskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA08961194D70C300E15B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA08936194D70C200E15B2E /* Obelisk */;
+			targetProxy = 1DA08960194D70C300E15B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DA08943194D70C300E15B2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA08944194D70C300E15B2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DA0894C194D70C300E15B2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA0894D194D70C300E15B2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DA08965194D70C300E15B2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DA08966194D70C300E15B2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DA0896A194D70C300E15B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DA0896B194D70C300E15B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DA0896D194D70C300E15B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Obelisk/Obelisk-Prefix.pch";
+				INFOPLIST_FILE = "Obelisk/Obelisk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DA0896E194D70C300E15B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Obelisk/Obelisk-Prefix.pch";
+				INFOPLIST_FILE = "Obelisk/Obelisk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1DA08970194D70C300E15B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Obelisk.app/Obelisk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Obelisk/Obelisk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObeliskTests/ObeliskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1DA08971194D70C300E15B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Obelisk.app/Obelisk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Obelisk/Obelisk-Prefix.pch";
+				INFOPLIST_FILE = "ObeliskTests/ObeliskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA08932194D70C200E15B2E /* Build configuration list for PBXProject "Obelisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA0896A194D70C300E15B2E /* Debug */,
+				1DA0896B194D70C300E15B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA0896C194D70C300E15B2E /* Build configuration list for PBXNativeTarget "Obelisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA0896D194D70C300E15B2E /* Debug */,
+				1DA0896E194D70C300E15B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1DA0896F194D70C300E15B2E /* Build configuration list for PBXNativeTarget "ObeliskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA08970194D70C300E15B2E /* Debug */,
+				1DA08971194D70C300E15B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DA0892F194D70C200E15B2E /* Project object */;
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D9AE34C1950101B00D6B0A3 /* GMBChromecastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9AE34B1950101B00D6B0A3 /* GMBChromecastManager.m */; };
 		1DA0893B194D70C200E15B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893A194D70C200E15B2E /* Foundation.framework */; };
 		1DA0893D194D70C200E15B2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893C194D70C200E15B2E /* CoreGraphics.framework */; };
 		1DA0893F194D70C200E15B2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893E194D70C200E15B2E /* UIKit.framework */; };
@@ -14,14 +15,25 @@
 		1DA08947194D70C300E15B2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08946194D70C300E15B2E /* main.m */; };
 		1DA0894B194D70C300E15B2E /* GMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA0894A194D70C300E15B2E /* GMBAppDelegate.m */; };
 		1DA0894E194D70C300E15B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA0894C194D70C300E15B2E /* Main.storyboard */; };
-		1DA08951194D70C300E15B2E /* GMBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08950194D70C300E15B2E /* GMBFirstViewController.m */; };
-		1DA08954194D70C300E15B2E /* GMBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08953194D70C300E15B2E /* GMBSecondViewController.m */; };
 		1DA08956194D70C300E15B2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA08955194D70C300E15B2E /* Images.xcassets */; };
 		1DA0895D194D70C300E15B2E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0895C194D70C300E15B2E /* XCTest.framework */; };
 		1DA0895E194D70C300E15B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893A194D70C200E15B2E /* Foundation.framework */; };
 		1DA0895F194D70C300E15B2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA0893E194D70C200E15B2E /* UIKit.framework */; };
 		1DA08967194D70C300E15B2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DA08965194D70C300E15B2E /* InfoPlist.strings */; };
 		1DA08969194D70C300E15B2E /* ObeliskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08968194D70C300E15B2E /* ObeliskTests.m */; };
+		1DA08974194D787500E15B2E /* GMBLibraryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08973194D787500E15B2E /* GMBLibraryTableViewController.m */; };
+		1DA08977194D791A00E15B2E /* GMBVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA08976194D791A00E15B2E /* GMBVideoItem.m */; };
+		1DA819711951625E0032113E /* GMBTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA819701951625E0032113E /* GMBTabViewController.m */; };
+		1DA81974195168F40032113E /* GMBUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA81973195168F40032113E /* GMBUtility.m */; };
+		1DA95520194E42E800E1F50D /* GMBPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9551F194E42E800E1F50D /* GMBPlayViewController.m */; };
+		1DFB5D0019565CEB0030FF5B /* GMBDropdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFB5CFF19565CEB0030FF5B /* GMBDropdown.m */; };
+		1DFC9F9E195A24870048EAB8 /* SCControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC9F93195A24870048EAB8 /* SCControlsView.m */; };
+		1DFC9F9F195A24870048EAB8 /* SCPlaybackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC9F95195A24870048EAB8 /* SCPlaybackItem.m */; };
+		1DFC9FA0195A24870048EAB8 /* SCPlaybackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC9F97195A24870048EAB8 /* SCPlaybackViewController.m */; };
+		1DFC9FA1195A24870048EAB8 /* SCScrubbingBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC9F99195A24870048EAB8 /* SCScrubbingBehavior.m */; };
+		1DFC9FA2195A24870048EAB8 /* SCTapHintBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC9F9B195A24870048EAB8 /* SCTapHintBehavior.m */; };
+		1DFC9FA3195A24870048EAB8 /* SCTimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC9F9D195A24870048EAB8 /* SCTimelineView.m */; };
+		2A3B24959CA346A5B35091CB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8534C004F84D55B47748EC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F649EA23F043899FCF4E47 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		1B8534C004F84D55B47748EC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9AE34A1950101B00D6B0A3 /* GMBChromecastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBChromecastManager.h; sourceTree = "<group>"; };
+		1D9AE34B1950101B00D6B0A3 /* GMBChromecastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBChromecastManager.m; sourceTree = "<group>"; };
 		1DA08937194D70C200E15B2E /* Obelisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obelisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA0893A194D70C200E15B2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DA0893C194D70C200E15B2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +62,36 @@
 		1DA08949194D70C300E15B2E /* GMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBAppDelegate.h; sourceTree = "<group>"; };
 		1DA0894A194D70C300E15B2E /* GMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBAppDelegate.m; sourceTree = "<group>"; };
 		1DA0894D194D70C300E15B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1DA0894F194D70C300E15B2E /* GMBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBFirstViewController.h; sourceTree = "<group>"; };
-		1DA08950194D70C300E15B2E /* GMBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBFirstViewController.m; sourceTree = "<group>"; };
-		1DA08952194D70C300E15B2E /* GMBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBSecondViewController.h; sourceTree = "<group>"; };
-		1DA08953194D70C300E15B2E /* GMBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBSecondViewController.m; sourceTree = "<group>"; };
 		1DA08955194D70C300E15B2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1DA0895B194D70C300E15B2E /* ObeliskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObeliskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA0895C194D70C300E15B2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1DA08964194D70C300E15B2E /* ObeliskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObeliskTests-Info.plist"; sourceTree = "<group>"; };
 		1DA08966194D70C300E15B2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DA08968194D70C300E15B2E /* ObeliskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObeliskTests.m; sourceTree = "<group>"; };
+		1DA08972194D787500E15B2E /* GMBLibraryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBLibraryTableViewController.h; sourceTree = "<group>"; };
+		1DA08973194D787500E15B2E /* GMBLibraryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBLibraryTableViewController.m; sourceTree = "<group>"; };
+		1DA08975194D791A00E15B2E /* GMBVideoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBVideoItem.h; sourceTree = "<group>"; };
+		1DA08976194D791A00E15B2E /* GMBVideoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBVideoItem.m; sourceTree = "<group>"; };
+		1DA8196F1951625E0032113E /* GMBTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBTabViewController.h; sourceTree = "<group>"; };
+		1DA819701951625E0032113E /* GMBTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBTabViewController.m; sourceTree = "<group>"; };
+		1DA81972195168F40032113E /* GMBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBUtility.h; sourceTree = "<group>"; };
+		1DA81973195168F40032113E /* GMBUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBUtility.m; sourceTree = "<group>"; };
+		1DA9551E194E42E800E1F50D /* GMBPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBPlayViewController.h; sourceTree = "<group>"; };
+		1DA9551F194E42E800E1F50D /* GMBPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBPlayViewController.m; sourceTree = "<group>"; };
+		1DFB5CFE19565CEB0030FF5B /* GMBDropdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMBDropdown.h; sourceTree = "<group>"; };
+		1DFB5CFF19565CEB0030FF5B /* GMBDropdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMBDropdown.m; sourceTree = "<group>"; };
+		1DFC9F92195A24870048EAB8 /* SCControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCControlsView.h; sourceTree = "<group>"; };
+		1DFC9F93195A24870048EAB8 /* SCControlsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCControlsView.m; sourceTree = "<group>"; };
+		1DFC9F94195A24870048EAB8 /* SCPlaybackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPlaybackItem.h; sourceTree = "<group>"; };
+		1DFC9F95195A24870048EAB8 /* SCPlaybackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPlaybackItem.m; sourceTree = "<group>"; };
+		1DFC9F96195A24870048EAB8 /* SCPlaybackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPlaybackViewController.h; sourceTree = "<group>"; };
+		1DFC9F97195A24870048EAB8 /* SCPlaybackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPlaybackViewController.m; sourceTree = "<group>"; };
+		1DFC9F98195A24870048EAB8 /* SCScrubbingBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCScrubbingBehavior.h; sourceTree = "<group>"; };
+		1DFC9F99195A24870048EAB8 /* SCScrubbingBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCScrubbingBehavior.m; sourceTree = "<group>"; };
+		1DFC9F9A195A24870048EAB8 /* SCTapHintBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTapHintBehavior.h; sourceTree = "<group>"; };
+		1DFC9F9B195A24870048EAB8 /* SCTapHintBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTapHintBehavior.m; sourceTree = "<group>"; };
+		1DFC9F9C195A24870048EAB8 /* SCTimelineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTimelineView.h; sourceTree = "<group>"; };
+		1DFC9F9D195A24870048EAB8 /* SCTimelineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTimelineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +102,7 @@
 				1DA0893D194D70C200E15B2E /* CoreGraphics.framework in Frameworks */,
 				1DA0893F194D70C200E15B2E /* UIKit.framework in Frameworks */,
 				1DA0893B194D70C200E15B2E /* Foundation.framework in Frameworks */,
+				2A3B24959CA346A5B35091CB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +126,12 @@
 				1DA08962194D70C300E15B2E /* ObeliskTests */,
 				1DA08939194D70C200E15B2E /* Frameworks */,
 				1DA08938194D70C200E15B2E /* Products */,
+				04F649EA23F043899FCF4E47 /* Pods.xcconfig */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
 		};
 		1DA08938194D70C200E15B2E /* Products */ = {
 			isa = PBXGroup;
@@ -108,6 +149,7 @@
 				1DA0893C194D70C200E15B2E /* CoreGraphics.framework */,
 				1DA0893E194D70C200E15B2E /* UIKit.framework */,
 				1DA0895C194D70C300E15B2E /* XCTest.framework */,
+				1B8534C004F84D55B47748EC /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +157,24 @@
 		1DA08940194D70C200E15B2E /* Obelisk */ = {
 			isa = PBXGroup;
 			children = (
+				1DFC9F91195A24350048EAB8 /* SCCastroControls */,
 				1DA08949194D70C300E15B2E /* GMBAppDelegate.h */,
 				1DA0894A194D70C300E15B2E /* GMBAppDelegate.m */,
 				1DA0894C194D70C300E15B2E /* Main.storyboard */,
-				1DA0894F194D70C300E15B2E /* GMBFirstViewController.h */,
-				1DA08950194D70C300E15B2E /* GMBFirstViewController.m */,
-				1DA08952194D70C300E15B2E /* GMBSecondViewController.h */,
-				1DA08953194D70C300E15B2E /* GMBSecondViewController.m */,
+				1DA8196F1951625E0032113E /* GMBTabViewController.h */,
+				1DA819701951625E0032113E /* GMBTabViewController.m */,
+				1DFB5CFE19565CEB0030FF5B /* GMBDropdown.h */,
+				1DFB5CFF19565CEB0030FF5B /* GMBDropdown.m */,
+				1DA9551E194E42E800E1F50D /* GMBPlayViewController.h */,
+				1DA9551F194E42E800E1F50D /* GMBPlayViewController.m */,
+				1DA08972194D787500E15B2E /* GMBLibraryTableViewController.h */,
+				1DA08973194D787500E15B2E /* GMBLibraryTableViewController.m */,
+				1D9AE34A1950101B00D6B0A3 /* GMBChromecastManager.h */,
+				1D9AE34B1950101B00D6B0A3 /* GMBChromecastManager.m */,
+				1DA81972195168F40032113E /* GMBUtility.h */,
+				1DA81973195168F40032113E /* GMBUtility.m */,
+				1DA08975194D791A00E15B2E /* GMBVideoItem.h */,
+				1DA08976194D791A00E15B2E /* GMBVideoItem.m */,
 				1DA08955194D70C300E15B2E /* Images.xcassets */,
 				1DA08941194D70C200E15B2E /* Supporting Files */,
 			);
@@ -157,6 +210,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1DFC9F91195A24350048EAB8 /* SCCastroControls */ = {
+			isa = PBXGroup;
+			children = (
+				1DFC9F92195A24870048EAB8 /* SCControlsView.h */,
+				1DFC9F93195A24870048EAB8 /* SCControlsView.m */,
+				1DFC9F94195A24870048EAB8 /* SCPlaybackItem.h */,
+				1DFC9F95195A24870048EAB8 /* SCPlaybackItem.m */,
+				1DFC9F96195A24870048EAB8 /* SCPlaybackViewController.h */,
+				1DFC9F97195A24870048EAB8 /* SCPlaybackViewController.m */,
+				1DFC9F98195A24870048EAB8 /* SCScrubbingBehavior.h */,
+				1DFC9F99195A24870048EAB8 /* SCScrubbingBehavior.m */,
+				1DFC9F9A195A24870048EAB8 /* SCTapHintBehavior.h */,
+				1DFC9F9B195A24870048EAB8 /* SCTapHintBehavior.m */,
+				1DFC9F9C195A24870048EAB8 /* SCTimelineView.h */,
+				1DFC9F9D195A24870048EAB8 /* SCTimelineView.m */,
+			);
+			name = SCCastroControls;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DA0896C194D70C300E15B2E /* Build configuration list for PBXNativeTarget "Obelisk" */;
 			buildPhases = (
+				CBA34FBC28BD4120B4CEEFF9 /* Check Pods Manifest.lock */,
 				1DA08933194D70C200E15B2E /* Sources */,
 				1DA08934194D70C200E15B2E /* Frameworks */,
 				1DA08935194D70C200E15B2E /* Resources */,
+				0B409703F3144A8BB27235AE /* Warn for TODO and FIXME comments */,
+				2D8789AB26EC48808F3EC6F0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +279,9 @@
 				CLASSPREFIX = GMB;
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
+					1DA08936194D70C200E15B2E = {
+						DevelopmentTeam = TVGP8Z5AV5;
+					};
 					1DA0895A194D70C300E15B2E = {
 						TestTargetID = 1DA08936194D70C200E15B2E;
 					};
@@ -249,15 +327,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B409703F3144A8BB27235AE /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		2D8789AB26EC48808F3EC6F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA34FBC28BD4120B4CEEFF9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DA08933194D70C200E15B2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DA08951194D70C300E15B2E /* GMBFirstViewController.m in Sources */,
-				1DA08954194D70C300E15B2E /* GMBSecondViewController.m in Sources */,
+				1DFC9FA1195A24870048EAB8 /* SCScrubbingBehavior.m in Sources */,
+				1DFC9F9F195A24870048EAB8 /* SCPlaybackItem.m in Sources */,
+				1DFC9F9E195A24870048EAB8 /* SCControlsView.m in Sources */,
+				1DA08974194D787500E15B2E /* GMBLibraryTableViewController.m in Sources */,
+				1DA81974195168F40032113E /* GMBUtility.m in Sources */,
+				1DA819711951625E0032113E /* GMBTabViewController.m in Sources */,
+				1DFC9FA3195A24870048EAB8 /* SCTimelineView.m in Sources */,
+				1DA95520194E42E800E1F50D /* GMBPlayViewController.m in Sources */,
+				1DA08977194D791A00E15B2E /* GMBVideoItem.m in Sources */,
+				1DFC9FA2195A24870048EAB8 /* SCTapHintBehavior.m in Sources */,
 				1DA08947194D70C300E15B2E /* main.m in Sources */,
+				1DFB5D0019565CEB0030FF5B /* GMBDropdown.m in Sources */,
+				1DFC9FA0195A24870048EAB8 /* SCPlaybackViewController.m in Sources */,
 				1DA0894B194D70C300E15B2E /* GMBAppDelegate.m in Sources */,
+				1D9AE34C1950101B00D6B0A3 /* GMBChromecastManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,11 +453,15 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -334,10 +474,21 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
@@ -355,21 +506,36 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
@@ -379,26 +545,35 @@
 		};
 		1DA0896D194D70C300E15B2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F649EA23F043899FCF4E47 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Obelisk/Obelisk-Prefix.pch";
 				INFOPLIST_FILE = "Obelisk/Obelisk-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		1DA0896E194D70C300E15B2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04F649EA23F043899FCF4E47 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Obelisk/Obelisk-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "Obelisk/Obelisk-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -462,6 +637,7 @@
 				1DA0896E194D70C300E15B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DA0896F194D70C300E15B2E /* Build configuration list for PBXNativeTarget "ObeliskTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +646,7 @@
 				1DA08971194D70C300E15B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
